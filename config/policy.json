@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "KEDA-ServiceBus-Autoscaler",
+  "rank": 12,
+  "action": "plan_keda_servicebus_autoscaler",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
